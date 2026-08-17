@@ -92,7 +92,7 @@ Understanding how execution moves through a compiled program.
                        │
                        ▼
                 ┌──────────────┐
-                │ Initialization│
+                │Initialization│
                 └──────┬───────┘
                        │
              ┌─────────┴─────────┐
@@ -136,7 +136,7 @@ SYNTAX is designed around separated analysis layers:
 ├─────────────────────────────────────┤
 │ Binary │ PE │ Assembly │ Runtime    │
 ├─────────────────────────────────────┤
-│      Parsing & Representation        │
+│      Parsing & Representation       │
 ├─────────────────────────────────────┤
 │       Windows / System Layer        │
 └─────────────────────────────────────┘
@@ -157,24 +157,24 @@ Binary
 └───────┬───────┘
         ▼
 ┌───────────────┐
-│ Format Parsing │
+│ Format Parsing│
 └───────┬───────┘
         ▼
 ┌───────────────┐
-│ PE Analysis    │
+│ PE Analysis   │
 └───────┬───────┘
         ▼
 ┌───────────────┐
-│ Code Analysis  │
+│ Code Analysis │
 └───────┬───────┘
         ▼
 ┌───────────────┐
-│ Control Flow   │
+│ Control Flow  │
 └───────┬───────┘
         ▼
 ┌───────────────┐
-│ Behavioral     │
-│ Analysis       │
+│ Behavioral    │
+│ Analysis      │
 └───────────────┘
 ```
 
