@@ -1,10 +1,6 @@
 # SYNTAX
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111111,100:2b2b2b&height=180&section=header&text=SYNTAX&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Low-Level%20Binary%20Analysis%20%26%20Reverse%20Engineering&descAlignY=60&descSize=16" width="100%">
-</p>
-
-<p align="center">
   <strong>A binary should never be a black box.</strong>
 </p>
 
